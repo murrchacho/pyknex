@@ -1,7 +1,7 @@
 """Module providing a Meta class for pyknex."""
 
 class Meta():
-    """Class Class providing a Metadata (connection information) information for all pyknex classes."""
+    """Class providing a Metadata (connection information) information for all pyknex classes."""
     def __init__(self, table_name, **kwargs):
         self.table_name = table_name
         self.connection_params = kwargs
