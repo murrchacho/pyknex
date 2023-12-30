@@ -1,9 +1,6 @@
-from pyknex.pyknex import pyknex
+from pyknex import Pyknex as pk
 
-pk = pyknex()
-
-result = (pk
+result = (pk("qwd")
  .select("*")
- .update("+")
  .log()
 )
