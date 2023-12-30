@@ -1,6 +1,6 @@
 from pyknex import Pyknex as pk
 
-result = (pk("qwd")
+result = (pk("table_name")
  .select("*")
  .log()
 )
